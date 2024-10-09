@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Counter</h1>
+        <p>
+            Hit the increment button to count up <br> Hit the save button to save your count in the lap
+        </p>
+        <h2 id="count_el">0</h2>
+        <button type="button" id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button type="button" id="save-btn" onclick="save()">Save</button>
+        <button type="button" id="reset-btn" onclick="reset()">Reset</button>
+        <p id="save-el">Lap: </p>
+        <br>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
